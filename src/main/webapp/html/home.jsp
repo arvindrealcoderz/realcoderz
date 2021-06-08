@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
+    
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,8 +9,7 @@
 <link
 	href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap"
 	rel="stylesheet">
-<script type="text/javascript"
-	src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/a81368914c.js"></script>
 
 <script>
@@ -42,7 +42,7 @@
 			<img src="img/bg.svg">
 		</div>
 		<div class="login-content">
-			<form action="index.html">
+		 	<form action="index.html">
 				<img src="img/avatar.svg">
 				<h2 class="title">Welcome</h2>
 				<div class="input-div one">
@@ -67,11 +67,8 @@
 				 <input type="button"
 					onclick="madeAjaxCall()" class="btn btn-primary"
 					value="login" id="somebutton">
-					
-					
-					
-					
 				<a href="http://localhost:8080/HOME-INSURANCE/html/registration.jsp">reg?</a>
+				<a href="http://localhost:8080/HOME-INSURANCE/html/created.jsp">created?</a>
 			</form>
 		</div>
 	</div>
